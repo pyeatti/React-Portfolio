@@ -1,0 +1,30 @@
+#profile-img {
+  border-radius: 50%;
+  padding: 20px;
+  padding-top: 0px;
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+  object-fit: cover;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: "Epilogue", sans-serif;
+}
+
+#about {
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 640px) {
+  #profile-img {
+    border-radius: 50%;
+    float: none;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+  }
+}
