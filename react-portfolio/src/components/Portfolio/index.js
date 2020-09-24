@@ -11,7 +11,7 @@ import Copy from "../../assets/copyslider.png";
 export default function Portfolio() {
   return (
     <div className="container mt-5">
-      <h2>Portfolio</h2>
+      <h2 className="text-light">Portfolio</h2>
       <div className="row mb-5">
         <div className="card bg-transparent border-0 col-md-6 col-sm-12">
           <div className="card-body">
@@ -63,7 +63,7 @@ export default function Portfolio() {
           <div className="card-body">
             <a
               href="https://serene-meadow-21920.herokuapp.com/"
-              className="card-link btn btn-outline-light"
+              className="card-link btn btn-light"
             >
               Deployed Site
             </a>
@@ -107,7 +107,7 @@ export default function Portfolio() {
           <div className="card-body">
             <a
               href="https://mysterious-tor-01740.herokuapp.com/"
-              className="card-link btn btn-outline-light"
+              className="card-link btn btn-light"
             >
               Deployed Site
             </a>

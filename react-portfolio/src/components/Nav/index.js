@@ -46,7 +46,7 @@ export default function Nav() {
           <li className="nav-item">
             <a
               className="nav-link font-weight-bold text-light"
-              href="./assets/IanPyeatt_Resume.pdf"
+              href="./assets/IP_Resume.pdf"
             >
               Resumé
             </a>
