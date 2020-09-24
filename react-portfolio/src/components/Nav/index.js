@@ -5,7 +5,7 @@ export default function Nav() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
       <a
         className="navbar-brand text-white font-weight-bold float-right"
-        href="index.html"
+        href="/about"
       >
         IAN PYEATT
       </a>
