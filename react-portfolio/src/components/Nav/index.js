@@ -25,14 +25,17 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link text-light font-weight-bold" href="/about">
+              <a
+                className="nav-link text-light font-weight-bold"
+                href="React-Portfolio/about"
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link font-weight-bold text-light"
-                href="/portfolio"
+                href="/React-Portolio/portfolio"
               >
                 Portfolio
               </a>

@@ -11,14 +11,14 @@ export default function App() {
     <Router>
       <div>
         <Nav />
-
+        <About />
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/React-Portolio/about">
             <About />
           </Route>
-          <Route path="/portfolio">
+          <Route path="/React-Portolio/portfolio">
             <Portfolio />
           </Route>
         </Switch>
