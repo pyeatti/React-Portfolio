@@ -11,12 +11,13 @@ export default function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-          <a
+          <Link
             className="navbar-brand text-white font-weight-bold float-right"
-            href="/"
+            to="/"
           >
             IAN PYEATT
-          </a>
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"
