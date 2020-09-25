@@ -1,3 +1,7 @@
 .nav-item:hover {
   color: yellow !important;
 }
+img {
+  width: 32px;
+  height: auto;
+}
