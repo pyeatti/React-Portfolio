@@ -14,12 +14,12 @@ export default function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-          <a
+          <Link
             className="navbar-brand text-white font-weight-bold float-right"
-            href="/"
+            href="/welcome"
           >
             IAN PYEATT
-          </a>
+          </Link>
           <button
             className="navbar-toggler justify-content-end"
             type="button"
@@ -81,10 +81,11 @@ export default function App() {
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/">
+          <Route path="/welcome">
             <Welcome />
           </Route>
         </Switch>
+
         <Footer />
       </div>
     </Router>
