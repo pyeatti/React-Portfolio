@@ -1,8 +1,11 @@
 import React from "react";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
+import Icons from "./components/Icons";
+import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import Pdf from "./assets/IP_Resume.pdf";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 
@@ -11,15 +14,14 @@ export default function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-          <Link
+          <a
             className="navbar-brand text-white font-weight-bold float-right"
-            to="/"
+            href="/"
           >
             IAN PYEATT
-          </Link>
-
+          </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler justify-content-end"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -29,7 +31,10 @@ export default function App() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
@@ -50,22 +55,6 @@ export default function App() {
               <li className="nav-item">
                 <a
                   className="nav-link font-weight-bold text-light"
-                  href="https://github.com/pyeatti"
-                >
-                  GitHub
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link font-weight-bold text-light"
-                  href="https://www.linkedin.com/in/ian-pyeatt-3682791ab/"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link font-weight-bold text-light"
                   href="mailto:pyeatt08@gmail.com"
                 >
                   Contact
@@ -74,7 +63,9 @@ export default function App() {
               <li className="nav-item">
                 <a
                   className="nav-link font-weight-bold text-light"
-                  href="./assets/IP_Resume.pdf"
+                  href={Pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resumé
                 </a>
@@ -91,7 +82,7 @@ export default function App() {
             <Portfolio />
           </Route>
           <Route path="/">
-            <About />
+            <Welcome />
           </Route>
         </Switch>
         <Footer />

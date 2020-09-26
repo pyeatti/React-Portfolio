@@ -1,176 +1,204 @@
 import React from "react";
-import Celeb from "../../assets/project1.png";
-import Film from "../../assets/project2.png";
-import Burger from "../../assets/burgerlogger.png";
-import Budget from "../../assets/budgetapp.png";
-import Fitness from "../../assets/fitnesstracker.png";
-import Password from "../../assets/passwordgenerator.png";
-import Stone from "../../assets/stoneguardians.png";
-import Copy from "../../assets/copyslider.png";
+import Celeb from "../../assets/celebhoroscope.png";
+import Film from "../../assets/filmclub.png";
+import Burger from "../../assets/burgerapp.png";
+import Budget from "../../assets/budgettracker.png";
+import Fitness from "../../assets/fitnesstrack.png";
+import Password from "../../assets/passwordgen.png";
+import Stone from "../../assets/stoneguardian.png";
+import Copy from "../../assets/copyslide.png";
 
 export default function Portfolio() {
   return (
     <div className="container mt-5">
-      <h2 className="text-light">Portfolio</h2>
-      <div className="row mb-5">
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center">Celebrity Horoscope</h3>
+      <div className="row justify-content-center">
+        <div
+          id="carouselExampleControls"
+          className="carousel slide shadow-lg w-75"
+          data-ride="carousel"
+        >
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
+                className=" card-img d-block w-100"
+                src={Film}
+                alt="First slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://film-club-ian-aaron.herokuapp.com/"
+                  className="card-link btn btn-light shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/abtobey/FilmClub"
+                  className="card-link btn btn-outline-light"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className=" card-img d-block w-100"
+                src={Celeb}
+                alt="Second slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://pyeatti.github.io/CelebrityHoroscope/home.html"
+                  className="card-link btn btn-light shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/pyeatti/CelebrityHoroscope"
+                  className="card-link btn btn-outline-light "
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className="d-block w-100 card-img"
+                src={Stone}
+                alt="Third slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://stone-guardians.superhi.com"
+                  className="card-link btn btn-light shadow"
+                >
+                  Deployed Site
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className="d-block w-100 card-img"
+                src={Copy}
+                alt="Fourth slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://sliding-copy-ian.superhi.com"
+                  className="card-link btn btn-light shadow"
+                >
+                  Deployed Site
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className=" card-img d-block w-100"
+                src={Burger}
+                alt="Fifth slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://serene-meadow-21920.herokuapp.com/"
+                  className="card-link btn btn-dark shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/abtobey/BurgerLogger"
+                  className="card-link btn btn-outline-dark"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className=" card-img d-block w-100"
+                src={Fitness}
+                alt="Fifth slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://mysterious-tor-01740.herokuapp.com/"
+                  className="card-link btn btn-dark shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/abtobey/FitnessTracker"
+                  className="card-link btn btn-outline-dark"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className=" card-img d-block w-100"
+                src={Budget}
+                alt="Fifth slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://damp-scrubland-55743.herokuapp.com/"
+                  className="card-link btn btn-dark shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/abtobey/PWA-Budget-App"
+                  className="card-link btn btn-outline-dark"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                className=" card-img d-block w-100"
+                src={Password}
+                alt="Fifth slide"
+              />
+              <div class="carousel-caption d-none d-md-block mb-3">
+                <a
+                  href="https://pyeatti.github.io/PasswordGenerator/"
+                  className="card-link btn btn-dark shadow"
+                >
+                  Deployed Site
+                </a>
+                <a
+                  href="https://github.com/pyeatti/PasswordGenerator"
+                  className="card-link btn btn-outline-dark"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
           </div>
-          <img className="card-img shadow-lg" src={Celeb} alt="Celeb" />
-          <div className="card-body">
-            <a
-              href="https://pyeatti.github.io/CelebrityHoroscope/home.html"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/pyeatti/CelebrityHoroscope"
-              className="card-link text-light"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center text-bold">Film Club</h3>
-          </div>
-          <img className="card-img shadow-lg" src={Film} alt="Film" />
-          <div className="card-body">
-            <a
-              href="https://film-club-ian-aaron.herokuapp.com/"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/abtobey/FilmClub"
-              className="card-link text-light underline"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="row mb-5">
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center">Burger Logger</h3>
-          </div>
-          <img className="card-img shadow-lg" src={Burger} alt="Burger" />
-          <div className="card-body">
-            <a
-              href="https://serene-meadow-21920.herokuapp.com/"
-              className="card-link btn btn-light"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/pyeatti/BurgerLogger"
-              className="card-link text-light"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center text-bold">
-              Password Generator
-            </h3>
-          </div>
-          <img className="card-img shadow-lg" src={Password} alt="Password" />
-          <div className="card-body">
-            <a
-              href="https://pyeatti.github.io/PasswordGenerator/"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/pyeatti/PasswordGenerator"
-              className="card-link text-light underline"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="row mb-5">
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center">Fitness Tracker</h3>
-          </div>
-          <img className="card-img shadow-lg" src={Fitness} alt="Fitness" />
-          <div className="card-body">
-            <a
-              href="https://mysterious-tor-01740.herokuapp.com/"
-              className="card-link btn btn-light"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/pyeatti/FitnessTracker"
-              className="card-link text-light"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center text-bold">Budget Tracker</h3>
-          </div>
-          <img className="card-img shadow-lg" src={Budget} alt="Celeb" />
-          <div className="card-body">
-            <a
-              href="https://damp-scrubland-55743.herokuapp.com/"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-            <a
-              href="https://github.com/pyeatti/PWA-Budget-App"
-              className="card-link text-light"
-            >
-              Repo
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="row mb-5">
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center text-bold">
-              Stone Guardians
-            </h3>
-          </div>
-          <img className="card-img shadow-lg" src={Stone} alt="S" />
-          <div className="card-body">
-            <a
-              href="https://stone-guardians.superhi.com"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-          </div>
-        </div>
-        <div className="card bg-transparent border-0 col-md-6 col-sm-12">
-          <div className="card-body">
-            <h3 className="text-light text-center text-bold">Copy Slider</h3>
-          </div>
-          <img className="card-img shadow-lg" src={Copy} alt="S" />
-          <div className="card-body">
-            <a
-              href="https://sliding-copy-ian.superhi.com/"
-              className="card-link btn btn-light shadow"
-            >
-              Deployed Site
-            </a>
-          </div>
+          <a
+            className="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a
+            className="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>

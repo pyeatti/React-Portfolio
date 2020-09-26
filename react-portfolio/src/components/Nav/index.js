@@ -39,22 +39,6 @@ export default function Nav() {
           <li className="nav-item">
             <a
               className="nav-link font-weight-bold text-light"
-              href="https://github.com/pyeatti"
-            >
-              GitHub
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link font-weight-bold text-light"
-              href="https://www.linkedin.com/in/ian-pyeatt-3682791ab/"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link font-weight-bold text-light"
               href="mailto:pyeatt08@gmail.com"
             >
               Contact
