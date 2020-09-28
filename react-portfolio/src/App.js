@@ -16,7 +16,7 @@ export default function App() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
           <Link
             className="navbar-brand text-white font-weight-bold float-right"
-            href="/welcome"
+            href="/"
           >
             IAN PYEATT
           </Link>
@@ -81,7 +81,7 @@ export default function App() {
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/welcome">
+          <Route path="/">
             <Welcome />
           </Route>
         </Switch>
