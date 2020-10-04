@@ -1,17 +1,18 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
+import Pdf from "../../assets/IP_Resume.pdf";
 
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <a
+      <Link
         className="navbar-brand text-white font-weight-bold float-right"
-        href="/about"
+        to="/"
       >
         IAN PYEATT
-      </a>
+      </Link>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler justify-content-end"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -21,7 +22,10 @@ export default function Nav() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div
+        className="collapse navbar-collapse justify-content-end"
+        id="navbarNav"
+      >
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className="nav-link font-weight-bold text-light" to="/about">
@@ -47,7 +51,9 @@ export default function Nav() {
           <li className="nav-item">
             <a
               className="nav-link font-weight-bold text-light"
-              href="./assets/IP_Resume.pdf"
+              href={Pdf}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resumé
             </a>

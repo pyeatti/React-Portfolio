@@ -4,7 +4,7 @@ import "./style.css";
 export default function Welcome() {
   return (
     <div className="container">
-      <div className="greeting text-white">
+      <div className="greeting text-dark">
         Oh,
         <br />
         hey <br />

@@ -1,13 +1,14 @@
 import React from "react";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
-import instagram from "../../assets/instagram.png";
-import twitter from "../../assets/twitter.png";
+import Icons from "../Icons";
+import github from "../../assets/githubb.png";
+import linkedin from "../../assets/linkedinb.png";
+import instagram from "../../assets/instagramb.png";
+import twitter from "../../assets/twitterb.png";
 
 export default function Footer() {
   return (
     <nav className="navbar navbar-light bg-transparent mt-5 pt-4 fixed-bottom">
-      <p className="text-white nav-item">IAN PYEATT ©</p>
+      <p className="text-dark nav-item">IAN PYEATT ©</p>
       <ul className="nav">
         <li className="nav-item pl-3 pb-2">
           <a href="https://github.com/pyeatti">

@@ -1,6 +1,6 @@
 import React from "react";
-// import Nav from "./components/Nav";
-import Icons from "./components/Icons";
+import Gif from "./assets/IP.gif";
+
 import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -11,14 +11,14 @@ import "./App.css";
 
 export default function App() {
   return (
-    <Router>
-      <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div>
+      <Router>
+        <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
           <Link
-            className="navbar-brand text-white font-weight-bold float-right"
+            className="navbar-brand text-dark font-weight-bold float-center"
             to="/"
           >
-            IAN PYEATT
+            <img src={Gif} className="gif" alt="IP" />
           </Link>
           <button
             className="navbar-toggler justify-content-end"
@@ -38,7 +38,7 @@ export default function App() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
-                  className="nav-link font-weight-bold text-light"
+                  className="nav-link font-weight-bold text-dark"
                   to="/about"
                 >
                   About
@@ -46,7 +46,7 @@ export default function App() {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link font-weight-bold text-light"
+                  className="nav-link font-weight-bold text-dark"
                   to="/portfolio"
                 >
                   Portfolio
@@ -54,7 +54,7 @@ export default function App() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link font-weight-bold text-light"
+                  className="nav-link font-weight-bold text-dark"
                   href="mailto:pyeatt08@gmail.com"
                 >
                   Contact
@@ -62,7 +62,7 @@ export default function App() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link font-weight-bold text-light"
+                  className="nav-link font-weight-bold text-dark"
                   href={Pdf}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,6 @@ export default function App() {
             </ul>
           </div>
         </nav>
-
         <Switch>
           <Route path="/about">
             <About />
@@ -84,10 +83,13 @@ export default function App() {
           <Route path="/">
             <Welcome />
           </Route>
+          <Route>
+            <Gif />
+          </Route>
         </Switch>
 
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
