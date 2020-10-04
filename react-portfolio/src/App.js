@@ -16,7 +16,7 @@ export default function App() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
           <Link
             className="navbar-brand text-white font-weight-bold float-right"
-            href="/"
+            to="/"
           >
             IAN PYEATT
           </Link>
