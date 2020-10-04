@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4e8e38bb.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.d0cc0e80.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.d0cc0e80.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.fea88ab6.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.0d8d8a81.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0d8d8a81.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.af9bbf79.chunk.js": "/React-Portfolio/static/js/2.af9bbf79.chunk.js",
-    "static/js/2.af9bbf79.chunk.js.map": "/React-Portfolio/static/js/2.af9bbf79.chunk.js.map",
+    "static/js/2.a3999b0d.chunk.js": "/React-Portfolio/static/js/2.a3999b0d.chunk.js",
+    "static/js/2.a3999b0d.chunk.js.map": "/React-Portfolio/static/js/2.a3999b0d.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.da485593be2dcb8d4016fbd72ae31b8c.js": "/React-Portfolio/precache-manifest.da485593be2dcb8d4016fbd72ae31b8c.js",
+    "precache-manifest.29bd97e0f912ffa950c9339077ee088b.js": "/React-Portfolio/precache-manifest.29bd97e0f912ffa950c9339077ee088b.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.4e8e38bb.chunk.css.map": "/React-Portfolio/static/css/main.4e8e38bb.chunk.css.map",
-    "static/js/2.af9bbf79.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.af9bbf79.chunk.js.LICENSE.txt",
+    "static/css/main.fea88ab6.chunk.css.map": "/React-Portfolio/static/css/main.fea88ab6.chunk.css.map",
+    "static/js/2.a3999b0d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a3999b0d.chunk.js.LICENSE.txt",
     "static/media/IP_Resume.pdf": "/React-Portfolio/static/media/IP_Resume.298d179c.pdf",
     "static/media/budgettracker.png": "/React-Portfolio/static/media/budgettracker.afad8b4d.png",
     "static/media/burgerapp.png": "/React-Portfolio/static/media/burgerapp.f0482c18.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.266d4783.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.af9bbf79.chunk.js",
-    "static/css/main.4e8e38bb.chunk.css",
-    "static/js/main.d0cc0e80.chunk.js"
+    "static/js/2.a3999b0d.chunk.js",
+    "static/css/main.fea88ab6.chunk.css",
+    "static/js/main.0d8d8a81.chunk.js"
   ]
 }
